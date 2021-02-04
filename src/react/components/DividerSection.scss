@@ -1,0 +1,29 @@
+.divider-section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divider-section--blossom-1 {
+    background-image: url("../../images/cherry-blossom-2.jpg");
+}
+
+.divider-section--blossom-2 {
+    background-image: url("../../images/cherry-blossom-3.jpg");
+}
+
+.divider-section__quote {
+    padding: 25px;
+    background-color: rgba($color: #000000, $alpha: .3);
+    font-size: 3em;
+    color: #FFF;
+    @media(max-width: 450px) {
+        font-size: 2em;
+    }
+}
