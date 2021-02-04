@@ -18,7 +18,7 @@ exports.handler = async (event, context) => {
   try {
     await new Promise((resolve, rej) => {
       const record = {
-        appId: 1,
+        appId: 2,
         comment: body.comment,
         name: body.name,
       };

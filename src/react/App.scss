@@ -2,8 +2,12 @@
 
 @import "animate.css/animate.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans&display=swap');
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
 }

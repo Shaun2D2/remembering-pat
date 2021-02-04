@@ -13,7 +13,7 @@ const DividerSection = ({ className, quote }) => (
 );
 
 DividerSection.defaultProps = {
-  className: 'divider-section--blossom-1',
+  className: 'divider-section--1',
   quote: null,
 };
 

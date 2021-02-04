@@ -15,7 +15,7 @@ exports.handler = async () => {
 
   try {
     const response = await new Promise((resolve, rej) => {
-      connection.query('SELECT * FROM comment WHERE appID=1;', (err, res) => {
+      connection.query('SELECT * FROM comment WHERE appID=2;', (err, res) => {
         if (err) return rej(err);
 
         resolve(res);
