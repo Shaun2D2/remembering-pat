@@ -8,7 +8,7 @@ const Footer = () => (
   <div className="app-footer">
     <div className="container">
       <p>
-        You will forever be in our hearts Pat
+        You will forever be in our hearts Uncle Pat
       </p>
       <p>
         Made with
