@@ -8,6 +8,9 @@
     text-align: center;
     font-size: 1.5em;
     line-height: 2em;
+    @media (max-width: 786px) {
+        text-align: left;
+    }
 }
 
 .poem__title {
@@ -17,4 +20,7 @@
 
 .poem__attribution {
     text-align: right;
+    @media (max-width: 786px) {
+        text-align: left;
+    }
 }
