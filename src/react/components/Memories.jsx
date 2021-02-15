@@ -112,9 +112,9 @@ const Memories = () => {
 
   return (
     <Section title="Memories & Goodbyes" id="memories">
-      <button type="button" className="btn btn-primary" onClick={handleClick}>Add your memory</button>
+      {comments.length > 0 && <button type="button" className="btn btn-primary" onClick={handleClick}>Add your memory</button>}
       <hr />
-      {comments.length < 1 && (<h3 className="text-center memories__zero-state-title">No memories yet</h3>)}
+      {comments.length < 1 && (<a href="#" onClick={handleClick} className="text-center memories__zero-state-title">Be the first to add your memory</a>)}
       <div className="card-columns">
         {comments.map((comment) => (
           <div className="card">
