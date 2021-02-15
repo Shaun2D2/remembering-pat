@@ -13,8 +13,8 @@ const Navigation = () => (
       <Nav className="mr-auto">
         <Link href="#eulogy">Eulogy</Link>
         <Link href="#photos">Photos</Link>
-        <Link href="#memories">Memories</Link>
         <Link href="#tribute">Tribute</Link>
+        <Link href="#memories">Memories</Link>
       </Nav>
       <div className="fb-share-button" data-href="https://rememberpatrick.com" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frememberpatrick.com%2F&amp;src=sdkpreparse" className="fb-xfbml-parse-ignore">Share</a></div>
     </Collapse>
